@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="font-awesome.css"/>
+  <script src="//g.alicdn.com/hi/modulex/5.0.0/seed.js"></script>
+  <script>
+    require.config({
+      packages: [
+        {
+          name: 'app',
+          path: '../src'
+        }
+      ]
+    })
+  </script>
+  <style>
+
+  </style>
+</head>
+<body>
+
+<script>
+  require(['app/', 'node'], function (app, $) {
+
+  });
+</script>
+</body>
+</html>

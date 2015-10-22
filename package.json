@@ -1,0 +1,27 @@
+{
+  "name": "kissytodo",
+  "version": "0.0.1",
+  "description": "kissytodo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:lisheng.lisheng/kissytodo.git"
+  },
+  "author": "笙磬",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.5",
+    "normalize.css": "^3.0.3",
+    "through2": "^2.0.0",
+    "xtemplate": "^4.3.1"
+  },
+  "devDependencies": {}
+}

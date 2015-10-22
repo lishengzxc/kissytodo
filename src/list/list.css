@@ -1,0 +1,22 @@
+.task-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px 10px;
+  height: 65px;
+  border-bottom: 1px solid #ccc; }
+  .task-item .over {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #66ffbd; }
+  .task-item:hover .over {
+    visibility: visible; }
